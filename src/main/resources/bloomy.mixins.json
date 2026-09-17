@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.example.bloomy.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "FluidRendererMixin",
+    "LeavesBlockMixin",
+    "FluidBlockMixin",
+    "GameMenuScreenMixin",
+    "BackgroundRendererMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "bloomy",
+  "name": "Bloomy",
+  "version": "1.0.0",
+  "environment": "client",
+  "icon": "assets/bloomy/icon.png",
+  "entrypoints": {
+    "client": [ "net.example.bloomy.BloomyClient" ],
+    "modmenu": [ "net.example.bloomy.config.ModMenuIntegration" ]
+  },
+  "mixins": [ "bloomy.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=1.21.4"
+  }
+}
